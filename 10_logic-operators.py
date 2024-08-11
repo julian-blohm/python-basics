@@ -1,3 +1,4 @@
+# logical operators “and” “not” and “or” return boolean values based on the passed values
 age1 = 24
 age2 = 16
 

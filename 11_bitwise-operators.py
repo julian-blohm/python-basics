@@ -1,4 +1,7 @@
 
+# bitwise operators allow to manipulate single bits of data, 
+# and return 0 or 1 based on the value of the bits that are used
+# https://www.geeksforgeeks.org/python-bitwise-operators/
 # & - conjunction
 # | - disjunction
 # ~ - negation

@@ -1,3 +1,6 @@
+# Built-in function, no import needed
+# to print arguments/values to the console
+
 print("hello") 
 print("Hello \nnew line") # multiple lines; backslash is special and indicated that next character is special
 print("1", "two", "three") # multiple arguments possible; combined when executed
