@@ -7,6 +7,3 @@ for age in ages:
 average = total / len(ages)
 
 print(average)
-
-
-
