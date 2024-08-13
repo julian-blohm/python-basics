@@ -1,4 +1,4 @@
-## arithmetic operators
+## arithmetic operators https://www.w3schools.com/python/python_operators.asp 
 # exponential
 print(2 ** 3) # = 8
 print(2. ** 3.) # = 8.0

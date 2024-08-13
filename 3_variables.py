@@ -21,3 +21,5 @@ print(cost_of_apple)
 
 # this operator can also be used with the other operators
 # += ; -= ; *= ...
+
+# reserved keywords: https://www.w3schools.com/python/python_ref_keywords.asp

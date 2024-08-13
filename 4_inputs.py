@@ -1,3 +1,6 @@
+# prompts user to input some data from the console
+# accepts optional parameter that can be used to write a message to the user before input
+# always returns string
 # input function asks user for input from console
 input("How are you?")
 
