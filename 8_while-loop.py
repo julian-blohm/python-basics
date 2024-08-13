@@ -1,4 +1,4 @@
-# while loop
+# while loop - while loop allows to run code repetitively based on a condition
 secret_number = 3
 
 guess = int(input("What is the secret number?"))

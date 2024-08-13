@@ -1,4 +1,4 @@
-# conditions
+# conditions - if/else statements allow to run code conditionally
 age = int(input("How old are you?"))
 
 # colon ':' needed after if statement
