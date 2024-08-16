@@ -33,7 +33,17 @@ def input_number_default(num = 10):
     return int(input("Enter number 5: ")) * num
 
 print(input_number_default())
-
+print("")
+print(input_number_default(5))
 print("")
 
-print(input_number_default(5))
+# functions don't need to return a value but return can also be used to end a function early
+
+def print_sum(num1, num2):
+    sum = num1 + num2
+    if(sum == 0):
+        return
+    print("The sum is: " + sum)
+
+print_sum(1, 1)
+print_sum(-1, 1)
