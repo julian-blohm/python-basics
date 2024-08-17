@@ -40,10 +40,22 @@ print("")
 # functions don't need to return a value but return can also be used to end a function early
 
 def print_sum(num1, num2):
-    sum = num1 + num2
+    sum = num1 + num2 # vars declared inside a function, cannot be used outside of it
     if(sum == 0):
         return
     print("The sum is: " + sum)
 
 print_sum(1, 1)
 print_sum(-1, 1)
+
+
+# scope, if we want to use a var defined within also outside of it use globasl 
+def input_mynum():
+    global own_num
+    own_num = 50
+    result = int(input("Enter a Number: ")) * own_num
+    return result
+
+input_mynum()
+
+print(own_num)
