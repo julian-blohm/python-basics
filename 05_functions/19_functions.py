@@ -39,14 +39,14 @@ print("")
 
 # functions don't need to return a value but return can also be used to end a function early
 
-def print_sum(num1, num2):
-    sum = num1 + num2 # vars declared inside a function, cannot be used outside of it
-    if(sum == 0):
+def print_mysum(num1, num2):
+    mysum = num1 + num2 # vars declared inside a function, cannot be used outside of it
+    if(mysum == 0):
         return
-    print("The sum is: " + sum)
+    print("The mysum is: " + mysum)
 
-print_sum(1, 1)
-print_sum(-1, 1)
+print_mysum(1, 1)
+print_mysum(-1, 1)
 
 
 # scope, if we want to use a var defined within also outside of it use globasl 
